@@ -27,4 +27,4 @@ jobs:
 
       - name: Run unit tests
         run:  echo "Simulate unit tests"
-    exit 0  # test réussi
+        exit 1  # test échoue
