@@ -25,7 +25,7 @@ jobs:
       - name: Build with Gradle
         run: echo "No Gradle build, skipping"
 
-      - name: Run unit tests
+      - name: Run failing unit tests
         run: |
-          echo "Simulate unit tests"
-          exit 1  # test échoue
+          echo "This test will fail"
+          exit 1  # <-- forcera le workflow en rouge
