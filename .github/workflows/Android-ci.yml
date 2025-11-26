@@ -26,5 +26,6 @@ jobs:
         run: echo "No Gradle build, skipping"
 
       - name: Run unit tests
-        run:  echo "Simulate unit tests"
-        exit 1  # test échoue
+        run: |
+          echo "Simulate unit tests"
+          exit 1  # test échoue
